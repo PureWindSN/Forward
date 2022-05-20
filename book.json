@@ -1,0 +1,67 @@
+
+{
+    "author": "Wind",
+    "language": "zh-hans",
+    "title":"Gitbook book title",
+    "description":"记录Gitbook的配置和一些插件的使用(本书的简单描述)",
+    "plugins": [
+        "expandable-chapters-small",
+        "multilingual-index",
+        "extra-html",
+        "insert-logo"
+    ],
+    "pluginsConfig": {
+        "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+        },
+        "insert-logo": {
+          "url": "images/logo.png",
+          "style": "background: none; max-height: 200px; min-height: 60px"
+        },
+        "multilingual-index": {
+            "enableSuper": false,
+            "index":"Content.html"
+        }
+    },
+    "localized-footer": {
+        "hline":true,
+        "filename":"./FOOTER.md"
+    },
+    "links": {
+        "sidebar": {
+            "Home": "https://www.baidu.com"
+        }
+    },
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+    "pdf": {
+      
+        "pageNumbers": false,
+
+        
+        "fontSize": 12,
+
+        
+        "paperSize": "a4",
+
+        
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 36,
+            "bottom": 36
+        },
+
+        
+        "headerTemplate": null,
+
+        
+        "footerTemplate": null
+    }
+}
